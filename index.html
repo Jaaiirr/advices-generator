@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/CSS/styles.css">
+
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="advice-id">
+      <p>Advice # <span id="advice-id"></span></p>
+    </div>
+    <div class="advice-message">
+      <p><span>"</span><span id="advice-message">Please click the button bellow to start!</span><span>"</span></p>
+    </div>
+    <div class="border-top"></div>
+    <button id="btn-next" class="btn-next" onclick="getAdvice()">New advice</button>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/JavaScript/index.js"></script>
+
+</html>
